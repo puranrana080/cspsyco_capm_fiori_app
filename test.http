@@ -1,0 +1,27 @@
+###
+GET http://localhost:4004/odata/v4/catalog/Books 
+
+###
+GET http://localhost:4004/odata/v4/catalog/Books(123e4567-e89b-12d3-a456-426614174000)
+
+###
+POST http://localhost:4004/odata/v4/catalog/Books
+Content-Type: application/json
+
+{
+    "title":"Oliver 2",
+    "author":"Jinoy",
+    "price":100.12,
+    "stock":11
+}
+
+###
+PATCH http://localhost:4004/odata/v4/catalog/Books(76d997a9-b55f-402e-ac26-e57689f82c1c)
+Content-Type: application/json
+
+{
+    "title":"Oliver1",
+    "author":"Jinoy",
+    "price":50.15,
+    "stock":7
+}
