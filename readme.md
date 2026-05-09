@@ -96,6 +96,10 @@ Finish
 created a form with submit button
 then created a handler in controller , 
 
+### PART6 Reading Data from CAPM Database to SAPUI5 
+Added ToolHeader, Side navbar , Panel  from sap ui5 demo,
+then display the list of book using binding to table ( items="{/Books}" )
+
 
 
 
