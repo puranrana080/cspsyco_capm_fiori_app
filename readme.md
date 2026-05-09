@@ -93,6 +93,8 @@ application title --> created with custom template
 Finish
 
 ## Part5 (Data insertion Sap Fiori App)
+created a form with submit button
+then created a handler in controller , 
 
 
 
