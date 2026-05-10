@@ -100,6 +100,10 @@ then created a handler in controller ,
 Added ToolHeader, Side navbar , Panel  from sap ui5 demo,
 then display the list of book using binding to table ( items="{/Books}" )
 
+### PART7 Implementing Delete Functionality in SAp Fiori with odata
+here added a ActionSheet fragment ,  implemented delete of book
+
+
 
 
 

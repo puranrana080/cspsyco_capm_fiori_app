@@ -450,6 +450,12 @@
                                     text="Genre"
                                 />
                             </Column>
+                            <Column id="_IDGenColumn7">
+                                <Text
+                                    id="_IDGenText12"
+                                    text="Action"
+                                />
+                            </Column>
                         </columns>
                         <items>
                             <ColumnListItem id="_IDGenColumnListItem">
@@ -477,6 +483,10 @@
                                     <Text
                                         id="_IDGenText11"
                                         text="{genre}"
+                                    />
+                                    <Button
+                                        id="button1"
+                                        text="..." press="onActionPressed($event)"
                                     />
                                 </cells>
                             </ColumnListItem>
